@@ -1,0 +1,20 @@
+{
+  "name": "Facebook Movie Finder",
+  "description": "Finds Movies, icon by Freepik",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "notifications", "clipboardWrite"
+  ],
+  "browser_action": {
+      "default_title": "Finds Movie",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "icons": { 
+        "128": "icon.png"
+    },
+  "manifest_version": 2
+}
